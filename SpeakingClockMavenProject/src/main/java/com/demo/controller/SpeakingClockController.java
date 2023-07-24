@@ -24,5 +24,5 @@ public class SpeakingClockController {
 	public String getTimeInWords(@PathVariable("time") String time) {
 		return speakingClockService.getCurrentTimeInWords(time);
 	}
-
+ 
 }

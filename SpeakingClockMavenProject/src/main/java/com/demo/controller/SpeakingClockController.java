@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.demo.service.SpeakingClockService;
 
 @RestController
-@RequestMapping("/speakingclock") 
+@RequestMapping("/speakingclock")
 public class SpeakingClockController {
 	@Autowired
 	private SpeakingClockService speakingClockService;
